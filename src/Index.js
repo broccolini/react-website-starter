@@ -6,6 +6,8 @@ import Box from './Box'
 import Octicon from "@github/octicons-react"
 import Flex from './Flex'
 import ButtonPrimary from './ButtonPrimary'
+import BoxList from './BoxList'
+import RepoItem from './RepoItem'
 
 const Index = props => (
   <Page>
@@ -19,6 +21,13 @@ const Index = props => (
       <ButtonPrimary>
         Give me potatoes
       </ButtonPrimary>
+      <Box py={2}>
+        <RepoItem
+          href='http://github.com'
+          reponame='potato.js'
+          description='Beautiful lightweight library for delicious js'
+        />
+      </Box>
     </Box>
   </Page>
 )
