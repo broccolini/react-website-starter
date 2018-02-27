@@ -5,6 +5,7 @@ import Heading from './Heading'
 import Box from './Box'
 import Octicon from "@github/octicons-react"
 import Flex from './Flex'
+import ButtonPrimary from './ButtonPrimary'
 
 const Index = props => (
   <Page>
@@ -15,6 +16,9 @@ const Index = props => (
           Hello potato
         </Heading>
       </Flex>
+      <ButtonPrimary>
+        Give me potatoes
+      </ButtonPrimary>
     </Box>
   </Page>
 )
