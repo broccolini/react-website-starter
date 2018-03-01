@@ -20,6 +20,7 @@
   "homepage": "https://github.com/broccolini/react-website-starter#readme",
   "dependencies": {
     "@compositor/x0": "^3.2.0",
+    "@github/octicons-react": "^1.2.0-alpha.b41121ca",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "react": "^16.2.0",
