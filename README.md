@@ -15,6 +15,8 @@ Install all the things with:
 
 `npm install`
 
+_Note: if you switch between between branches you will probably need to run `npm install` again to update the dependencies._
+
 Run app with:
 
 `npm start`
