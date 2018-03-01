@@ -6,9 +6,9 @@ import Box from './Box'
 
 const Index = props => (
   <Page>
-    <Box p={3} mx='auto' width={2/3}>
+    <Box p={3} mx='auto' width={[1, 1, 2/3,]}>
       <Heading>
-        Hello potato
+        Hello world
       </Heading>
     </Box>
   </Page>
