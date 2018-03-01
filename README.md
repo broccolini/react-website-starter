@@ -1,5 +1,5 @@
-# react-website-starter
-Simple setup for websites built in React with [styled-components](https://www.styled-components.com) &amp; [styled-system](https://github.com/jxnblk/styled-system/) and [x0](https://github.com/c8r/x0).
+# React Website Starter
+Simple setup for websites built in React with [styled-components](https://www.styled-components.com) 💅 &amp; [styled-system](https://github.com/jxnblk/styled-system/) 💙 and [x0](https://github.com/c8r/x0) 😎.
 
 Check out the [demo branch](https://github.com/broccolini/react-website-starter/tree/demo) to see example components with various different methods of applying styles.
 
