@@ -24,7 +24,7 @@ const Index = props => (
         The default setup on the master branch includes <Link href='https://www.styled-components.com/docs'>Styled Components</Link> 💅 and <Link href='https://github.com/jxnblk/styled-system/'>Styled System</Link> 💙 for styling  your components, and uses <Link href='https://github.com/c8r/x0'>x0 by Compositor</Link> to give you a zero-config React development environment and static site generator.
       </Text>
       <Text mb={5} fontSize={3}>
-        👉 Switch to the <Link  fontWeight='bold' href='https://github.com/broccolini/react-website-starter/tree/demo'>demo branch</Link> to see example components with various different methods of applying styles.
+        👉 Switch to the <Link  fontWeight='bold' href='https://github.com/broccolini/react-website-starter/tree/demo'>demo branch</Link> to see example components with various different methods of applying styles. It’s probably more useful to view the code, but you can see what it looks like with this <Link href='http://broccolini-c302d53542.drafts.github.io/react-website-starter/'>Pages preview</Link>.
 
         The demo branch includes examples built with <Link href='https://primer.github.io/'>Primer</Link> CSS using <Link href='https://github.com/jxnblk/styled-system/tree/master/system-classnames'>System Classnames</Link>, and <Link href='https://github.com/JedWatson/classnames'>Classnames</Link>. Comments in within each component.js file explain what the component is built with. I recommend viewing the documentation for each of the packages for a better understanding of how each of them work.
         </Text>
