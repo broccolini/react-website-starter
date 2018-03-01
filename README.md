@@ -1,7 +1,7 @@
 # React Website Starter
 Default setup for websites built in React with styled components &amp; styled system and x0.
 
-The `demo` branch includes a mix of examples, some built with [styled-components]() and [styled-system]() some apply Primer CSS via [system-classnames]() or [classnames]().
+The `demo` branch includes a mix of examples, some built with [styled-components](https://www.styled-components.com) and [styled-system](https://github.com/jxnblk/styled-system/) some apply Primer CSS via [system-classnames](https://github.com/jxnblk/styled-system/tree/master/system-classnames) or [classnames](https://github.com/JedWatson/classnames).
 
 This branch includes [Primer](https://primer.github.io/) CSS via CDN link. Using the [classnames](https://www.npmjs.com/package/classnames) package, Primer class selectors can be added to react components. This repo also includes [system-classnames](https://www.npmjs.com/package/system-classnames) which map Primer CSS utilities to style props. For example `p={3}` maps to `p-3`.
 
