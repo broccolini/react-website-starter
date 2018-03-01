@@ -9,7 +9,7 @@ import Box from './Box'
 const Page = props => (
   <React.Fragment>
     <head>
-      <title>Primer React</title>
+      <title>React Website Starter demo</title>
       <Meta />
       <CSS />
     </head>
