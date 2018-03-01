@@ -1,3 +1,15 @@
+// The Heading component imports the Text component, which is built using
+// styled-components and styled-system, this allows you to add styled-system
+// functions to your component. Each style function exposes its own set of props
+// that style elements based on values defined in a .theme.js file.
+// Example: `<Heading fontsize={2}>`
+
+// The heading component uses the withComponent method to create a new styled-component
+// with a different tag, but with all the same rules applied. This is so that you
+// define which heading tag the component is rendered with. This allows you to
+// keep the markup semantic while visually styling the element how you like.
+// Example: `<Heading.h3 />` will render as `<h3>`
+
 import Text from './Text'
 
 const Heading = Text.withComponent('h1')
