@@ -29,6 +29,6 @@
   },
   "x0": {
     "cssLibrary": "styled-components",
-    "basename": "/primer-react"
+    "basename": "/react-website-starter"
   }
 }
