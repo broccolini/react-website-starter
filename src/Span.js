@@ -7,18 +7,18 @@
 import styled from 'styled-components'
 import {
   space,
-  width,
-  maxWidth,
-  flex,
-  color
+  color,
+  fontSize,
+  fontWeight,
+  lineHeight,
 } from 'styled-system'
 
 const Span = styled.span`
   ${space}
-  ${width}
-  ${maxWidth}
-  ${flex}
   ${color}
+  ${fontSize}
+  ${fontWeight}
+  ${lineHeight}
 `
 
 export default Span
