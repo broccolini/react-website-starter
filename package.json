@@ -19,16 +19,16 @@
   },
   "homepage": "https://github.com/broccolini/react-website-starter#readme",
   "dependencies": {
-    "@compositor/x0": "^3.2.0",
+    "@compositor/x0": "^3.2.1",
     "@github/octicons-react": "^1.2.0-alpha.b41121ca",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "react": "^16.2.0",
     "styled-components": "^3.1.6",
-    "styled-system": "^2.0.2"
+    "styled-system": "^2.0.2",
+    "update": "^0.7.4"
   },
   "x0": {
-    "cssLibrary": "styled-components",
-    "basename": "/react-website-starter"
+    "cssLibrary": "styled-components"
   }
 }
