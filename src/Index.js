@@ -6,26 +6,50 @@ import Box from './Box'
 import Octicon from "@github/octicons-react"
 import Flex from './Flex'
 import ButtonPrimary from './ButtonPrimary'
-import BoxList from './BoxList'
+import UtilityBox from './UtilityBox'
 import RepoItem from './RepoItem'
+import BorderBox from './BorderBox'
+import Link from './Link'
+import Text from './Text'
 
 const Index = props => (
   <Page>
     <Box p={3} mx='auto' width={2/3}>
+      <Heading mb={3}>
+        Hello Demo!
+      </Heading>
+        <Text fontSize={3} mb={2} fontWeight='bold'>🙋‍ Hi there.</Text>
+        <Text mb={3}>
+        This page is to demo components built in a few different ways, with <Link href='https://www.styled-components.com/docs'>Styled Components</Link> and <Link href='https://github.com/jxnblk/styled-system/'>Styled System</Link>, or with Primer CSS using <Link href='https://github.com/jxnblk/styled-system/tree/master/system-classnames'>System Classnames</Link>, and <Link href='https://github.com/JedWatson/classnames'>Classnames</Link>. Comments in within each component.js file explain what the component is built with. I recommend viewing the documentation for each of the packages for a better understanding of how each of them work.
+        </Text>
+        <Text mb={3}>
+        As well as different libraries for applying styles, demos indclude extending a component and using the withComponent method from styled-components; using style functions to expose props defined in the theme.js file with styled-system; and using props to pass in data to a component. Have fun!
+        </Text>
+
       <Flex align='center'>
         <Octicon name="heart" large middle/>
-        <Heading ml={2}>
-          Hello potato
+        <Heading fontSize={4} ml={2}>
+          Octicons
         </Heading>
       </Flex>
       <ButtonPrimary>
         Give me potatoes
       </ButtonPrimary>
+      <Link p={[2,3]} color='gray.7' fontWeight='bold' href='#'>
+        A bold link
+      </Link>
+      <BorderBox mt={3} p={3}>
+        BorderBox extends Box and adds a border to it!
+      </BorderBox>
+      <UtilityBox bg='green-light' my={4} p={4}>
+        UtilityBox uses the classnames package and system-classnames to apply utilities as props
+      </UtilityBox>
       <Box py={2}>
         <RepoItem
           href='http://github.com'
-          reponame='potato.js'
+          reponame='potato.js repo'
           description='Beautiful lightweight library for delicious js'
+          stars='510'
         />
       </Box>
     </Box>
