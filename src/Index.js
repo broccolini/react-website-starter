@@ -14,11 +14,11 @@ import Text from './Text'
 
 const Index = props => (
   <Page>
-    <Box p={3} mx='auto' width={2/3}>
+    <Box p={3} mx='auto' width={[1, 1, 3/4, 1/2]}>
       <Heading mb={3}>
-        Hello Demo!
+        Welcome to the Demo Page!
       </Heading>
-        <Text fontSize={3} mb={2} fontWeight='bold'>🙋‍ Hi there.</Text>
+        <Text fontSize={3} mb={2} fontWeight='bold'>🙋‍ Hi there,</Text>
         <Text mb={3}>
         This page is to demo components built in a few different ways, with <Link href='https://www.styled-components.com/docs'>Styled Components</Link> and <Link href='https://github.com/jxnblk/styled-system/'>Styled System</Link>, or with Primer CSS using <Link href='https://github.com/jxnblk/styled-system/tree/master/system-classnames'>System Classnames</Link>, and <Link href='https://github.com/JedWatson/classnames'>Classnames</Link>. Comments in within each component.js file explain what the component is built with. I recommend viewing the documentation for each of the packages for a better understanding of how each of them work.
         </Text>
@@ -33,22 +33,22 @@ const Index = props => (
         </Heading>
       </Flex>
       <ButtonPrimary>
-        Give me potatoes
+        Primer CSS button
       </ButtonPrimary>
       <Link p={[2,3]} color='gray.7' fontWeight='bold' href='#'>
-        A bold link
+        A styled-component link
       </Link>
       <BorderBox mt={3} p={3}>
         BorderBox extends Box and adds a border to it!
       </BorderBox>
       <UtilityBox bg='green-light' my={4} p={4}>
-        UtilityBox uses the classnames package and system-classnames to apply utilities as props
+        UtilityBox uses the classnames package and system-classnames to apply Primer utilities as props
       </UtilityBox>
       <Box py={2}>
         <RepoItem
           href='http://github.com'
           reponame='potato.js repo'
-          description='Beautiful lightweight library for delicious js'
+          description='Demo of a composit component, i.e. components within components!'
           stars='510'
         />
       </Box>
