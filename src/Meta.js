@@ -11,7 +11,6 @@ const Meta = () => (
     <link rel='stylesheet' href='https://unpkg.com/primer-layout/build/build.css' />
     <link rel='stylesheet' href='https://unpkg.com/primer-navigation/build/build.css' />
     <link rel='stylesheet' href='https://unpkg.com/primer-support/build/build.css' />
-    <link rel='stylesheet' href='https://unpkg.com/primer-table/build/build.css' />
     <link rel='stylesheet' href='https://unpkg.com/primer-tooltips/build/build.css' />
     <link rel='stylesheet' href='https://unpkg.com/primer-truncate/build/build.css' />
     <link rel='stylesheet' href='https://unpkg.com/primer-utilities/build/build.css' />
