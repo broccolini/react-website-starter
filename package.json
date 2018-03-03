@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "description": "React website starter",
-  "main": "src/index.js",
+  "main": "src/Index.js",
   "scripts": {
     "start": "x0 dev src/Index.js -op 8888",
     "build": "x0 build src/Index.js -d . --static"
