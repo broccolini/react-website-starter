@@ -5,8 +5,8 @@
   "description": "React website starter",
   "main": "index.js",
   "scripts": {
-    "start": "x0 dev src -op 8888",
-    "build": "x0 build src -d . --static"
+    "start": "x0 dev pages -op 8888",
+    "build": "x0 build pages -d docs --static"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,8 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
-import theme from './theme'
-import CSS from './CSS'
-import Box from './Box'
+import theme from '../src/theme'
+import CSS from '../src/CSS'
+import Box from '../src/Box'
 
 // Generic page wrapper component
 const Page = props => (

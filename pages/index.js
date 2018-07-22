@@ -1,7 +1,6 @@
 import React from 'react'
-import theme from './theme'
-import Heading from './Heading'
-import Box from './Box'
+import Heading from '../src/Heading'
+import Box from '../src/Box'
 
 const Index = props => (
   <Box p={3} mx='auto' width={[1, 1, 2/3,]}>
