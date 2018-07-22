@@ -1,18 +1,13 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
-import theme from './theme'
-import Meta from './Meta'
-import CSS from './CSS'
-import Box from './Box'
+import theme from '../src/theme'
+import CSS from '../src/CSS'
+import Box from '../src/Box'
 
 // Generic page wrapper component
 const Page = props => (
   <React.Fragment>
-    <head>
-      <title>React Website Starter</title>
-      <Meta />
-      <CSS />
-    </head>
+    <CSS />
     <ThemeProvider theme={theme}>
       <Box color='bodytext'>
         {props.children}

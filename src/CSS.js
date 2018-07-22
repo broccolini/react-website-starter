@@ -9,9 +9,7 @@ const CSS = ({ css }) =>
 
 CSS.defaultProps = {
   css: `
-    * { box-sizing: border-box }
     body {
-      margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       line-height: 1.5;
     }

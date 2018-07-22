@@ -5,8 +5,8 @@
   "description": "React website starter",
   "main": "index.js",
   "scripts": {
-    "start": "x0 dev src/Index.js -op 8888",
-    "build": "x0 build src/Index.js -d . --static"
+    "start": "x0 dev pages -op 8888",
+    "build": "x0 build pages -d docs --static"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,30 @@
   },
   "homepage": "https://github.com/broccolini/react-website-starter#readme",
   "dependencies": {
-    "@compositor/x0": "^3.2.0",
+    "@compositor/x0": "^6.0.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "react": "^16.2.0",
     "styled-components": "^3.1.6",
-    "styled-system": "^2.0.2"
+    "styled-system": "^3.0.1"
+  },
+  "x0": {
+    "title": "React Website Starter",
+    "links": [
+      {
+        "rel": "icon",
+        "href": "assets/favicon.png"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "href": "assets/apple-touch-icon.png"
+      }
+    ],
+    "meta": [
+      {
+        "name": "description",
+        "content": "Simple setup for building sites with React"
+      }
+    ]
   }
 }
